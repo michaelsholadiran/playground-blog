@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px
+}
+
+body #contact-me {
+    background-color: azure;
+    width: 100%;
+    height: 30px;
+}
+
+#contact-me a {
+    float: right;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    color: #080416;
+    transition: 0s;
+}
+
+#contact-me a:hover {
+    color: #888393;
+    text-decoration: underline;
+}
+
+#contact-me img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+.modal {
+display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+        width: 100%;
+        overflow: auto;
+    background-color:rgba(0,0,0,0.5);
+}
+.modal-content{
+    background-color: #f4f4f4;
+    margin: 30px auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 6px;
+    border-r
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5),0 7px 20px 0 rgb(0,0,0.2);
+    animation-name: modalopen;
+    animation-duration: 1.3s;
+        
+}
+@keyframes modalopen{
+    from{ opacity: 0}
+    to{opacity: 7}
+}
+.closebtn{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    
+}
+.closebtn:hover,.closebtn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    color: white;
+    background-image: url(header%20background.jpg)
+}
+
+header p {
+    padding-top: 20px;
+    padding-left: 48%;
+}
+
+header .my-name {
+    text-align: center;
+}
+
+header .my-motive {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    background-image: url(header%20background.jpg)
+}
+
+#main-content {
+    padding: 10px;
+    padding-right: 10px;
+    color: white;
+    width: 1100px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-image: url(header%20background.jpg)
+}
+
+
+/*simply add bacground colour to understand the layouts*/
+
+main #side-bar {
+    margin-right: 5px;
+    background: ;
+    float: right;
+    width: 300px;
+    height: 800px;
+}
+
+
+/*simply add bacground colour to understand the layouts*/
+
+#container {
+    background: white;
+    height: 1000px;
+    width: 790px;
+    display: table;
+    box-sizing: border-box;
+}
+
+
+/*simply add bacground colour to understand the layouts*/
+
+#row {
+    border-bottom: 2px solid #080416;
+    background: white;
+}
+
+.column {
+    color: #080416;
+    display: table-cell;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    width: 40%;
+    text-align: left vertical-align: middle;
+}
+
+.picture-of-an-event {
+    padding-left: 25px;
+}
+
+.header-article {
+    color: #080416;
+    padding-left: 25px;
+}
+
+.footer-article {
+    color: #080416;
+    padding-left: 25px;
+}
+
+.description {
+    color: #080416;
+    font-size: 11px;
+}
+
+.report {
+    font-size: 15px;
+}
+
+.main-event-writeups-two {
+    margin-left: 30px;
+}
+
+#story-first-link {
+    color: #080416;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0s;
+}
+
+#story-first-link:hover {
+    color: 080416;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.description a {
+    border: 2px solid 080416;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background: #080416;
+    margin-left: 110px;
+    transition: 0s;
+}
